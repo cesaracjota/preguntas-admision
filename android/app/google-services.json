@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "882394606095",
+    "project_id": "preguntas-admision-unsa",
+    "storage_bucket": "preguntas-admision-unsa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:882394606095:android:0c7595eaefd670c106917a",
+        "android_client_info": {
+          "package_name": "com.agylcode.preguntas_admision_unsa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "882394606095-9m3df1ehdno6vb6gkn8p3gu2hpvc6n21.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.agylcode.preguntas_admision_unsa",
+            "certificate_hash": "3b1828fe3c19c88c555ccaee3232efdf977c6840"
+          }
+        },
+        {
+          "client_id": "882394606095-qa5ii15son9hio8l09co51irntoklc9u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCi4CWuoxvy2Wk7bdrd6x7eOaA-FHMaiPo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "882394606095-epopkpjql1t66uabu1psei0pb9c5asr2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

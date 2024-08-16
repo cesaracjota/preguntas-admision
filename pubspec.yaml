@@ -1,0 +1,133 @@
+name: banco_preguntas_admision
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  shared_preferences: ^2.2.0
+  provider: ^6.0.1
+  url_launcher: ^6.1.12
+  firebase_core_platform_interface: ^4.8.0
+  firebase_core: ^2.15.1
+  firebase_auth: ^4.8.0
+  google_sign_in: ^6.1.4
+  font_awesome_flutter: ^10.5.0
+  flutter_hooks: ^0.20.0
+  animated_background: ^2.0.0
+  introduction_slider: ^2.0.1
+  intro_views_flutter: ^3.2.0
+  http: ^1.1.0
+  dio: ^5.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  assets:
+      - assets/
+
+  fonts:
+    - family: Raleway
+      fonts:
+        - asset: fonts/Raleway-Regular.ttf
+          weight: 300
+        - asset: fonts/Raleway-Medium.ttf
+          weight: 500
+        - asset: fonts/Raleway-Bold.ttf
+          weight: 700
+        - asset: fonts/Raleway-Black.ttf
+          weight: 900
+    
+    - family: Roboto
+      fonts:
+        - asset: fonts/Roboto-Regular.ttf
+          weight: 300
+        - asset: fonts/Roboto-Medium.ttf
+          weight: 500
+        - asset: fonts/Roboto-Bold.ttf
+          weight: 700
+        - asset: fonts/Roboto-Black.ttf
+          weight: 900
+    
+    - family: Poppins
+      fonts:
+        - asset: fonts/Poppins-Regular.ttf
+          weight: 300
+        - asset: fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: fonts/Poppins-Bold.ttf
+          weight: 700
+        - asset: fonts/Poppins-Black.ttf
+          weight: 900
+
+    - family: Dosis
+      fonts:
+        - asset: fonts/Dosis-Regular.ttf
+          weight: 300
+        - asset: fonts/Dosis-Medium.ttf
+          weight: 500
+        - asset: fonts/Dosis-Bold.ttf
+          weight: 700
+        - asset: fonts/Dosis-ExtraBold.ttf
+          weight: 900
+    
+    - family: EthosNova
+      fonts:
+        - asset: fonts/EthosNova-Regular.ttf
+          weight: 300
+        - asset: fonts/EthosNova-Medium.ttf
+          weight: 500
+        - asset: fonts/EthosNova-Bold.ttf
+          weight: 700
+        - asset: fonts/EthosNova-Heavy.ttf
+          weight: 900
+          
+    - family: Gotham
+      fonts:
+        - asset: fonts/Gotham-Regular.ttf
+          weight: 300
+        - asset: fonts/Gotham-Medium.ttf
+          weight: 500
+        - asset: fonts/Gotham-Bold.ttf
+          weight: 700
+        - asset: fonts/Gotham-Black.otf
+          weight: 900
+
+    - family: Kreadon
+      fonts:
+        - asset: fonts/Kreadon-Regular.otf
+          weight: 300
+        - asset: fonts/Kreadon-Medium.otf
+          weight: 500
+        - asset: fonts/Kreadon-Bold.otf
+          weight: 700
+        - asset: fonts/Kreadon-Black.otf
+          weight: 900
